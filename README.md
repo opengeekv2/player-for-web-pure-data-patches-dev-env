@@ -27,8 +27,19 @@ The the repositories will be independent because the plugin folder is cleverly i
 
 Develop whatever thing you wanat you work on and push it back periodically to your fork.
 
-Once you are satisfied with your work and you believe it meets the requirements to fix the issue ask for a pull request.
+Remember to periodically run:
+* make phpunit
+* make php-cs
+* make php-cs-fix
+* make phpstan
+* make psalm
 
-Enjoy all the comands put in place in the Makefile to do your life easier while running commands inside the Docker.
+to check the quallity of you pull request in advance.
+
+If any of them gives you an error it could possibly mean the pull request will not pass the checks put in place.
+
+Once you are satisfied with your work and you believe it meets the requirements to fix the issue ask for a pull request in [Player for Web Pure Data](https://github.com/opengeekv2/player-for-web-pure-data-patches).
+
+Enjoy all the comands in the Makefile to do your life easier while running commands inside the Docker.
 
 Thanks for contributing.
