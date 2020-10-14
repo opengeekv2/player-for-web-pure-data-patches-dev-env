@@ -21,9 +21,9 @@ To start the project:
 Open `https://localhost:8443` in your browser
 Open `http://localhost:8025` in your browser to access MailHog
 
-Clone [Player for Web Pure Data](https://github.com/opengeekv2/player-for-web-pure-data-patches) into pubkic/wp-content/plugins/ or your own fork of the plugin.
+Clone [Player for Web Pure Data](https://github.com/opengeekv2/player-for-web-pure-data-patches) into public/wp-content/plugins/ or your own fork of the plugin.
 
-The the repositories will be independent because the plugin folder is cleverly ignored.
+The repositories will be independent because the plugin folder is ignored.
 
 Develop whatever thing you wanat you work on and push it back periodically to your fork.
 
