@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<psalm
+    errorLevel="1"
+    resolveFromConfigFile="true"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="https://getpsalm.org/schema/config"
+    xsi:schemaLocation="https://getpsalm.org/schema/config vendor/vimeo/psalm/config.xsd"
+>
+    <projectFiles>
+        <directory name="public/wp-content/plugins/player-for-web-pure-data-patches"/>
+        <ignoreFiles>
+            <directory name="public/wp-content/plugins/player-for-web-pure-data-patches/vendor"/>
+            <directory name="public/wp-content/plugins/player-for-web-pure-data-patches/tests"/>
+            <directory name="public/wp-content/plugins/player-for-web-pure-data-patches/trunk"/>
+            <directory name="public/wp-content/plugins/player-for-web-pure-data-patches/tags"/>
+        </ignoreFiles>
+    </projectFiles>
+
+    <plugins>
+        <pluginClass class="PsalmWordPress\Plugin"/>
+    </plugins>
+</psalm>

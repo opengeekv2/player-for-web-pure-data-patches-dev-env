@@ -1,0 +1,42 @@
+# ENVIRONMENT
+.vagrant
+
+# OS GENERATED FILES
+.DS_Store
+.DS_Store?
+
+# MKCERT
+.certs
+
+# ANSIBLE
+playbook.retry
+
+# VAGRANT
+ubuntu-bionic-18.04-cloudimg-console.log
+
+# PHP CS
+.php_cs.cache
+
+# NODE
+node_modules
+npm-debug.log
+yarn-error.log
+
+# Wordpress
+public/wp-content/debug.log
+public/wp-content/cache
+public/wp-content/languages
+public/wp-content/upgrade
+public/wp-content/uploads
+public/wp-content/plugins
+public/wp-content/themes
+public/wp
+/vendor
+
+tests_installed*
+
+#PHPstorm
+.idea
+
+#PrettierJS
+.prettierrc
