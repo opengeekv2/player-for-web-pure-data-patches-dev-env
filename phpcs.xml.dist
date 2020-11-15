@@ -5,6 +5,8 @@
 
 	<!-- What to scan -->
 	<file>./public/wp-content/plugins/player-for-web-pure-data-patches</file>
+	<exclude-pattern>./public/wp-content/plugins/player-for-web-pure-data-patches/trunk</exclude-pattern>
+	<exclude-pattern>./public/wp-content/plugins/player-for-web-pure-data-patches/tags</exclude-pattern>
 	<exclude-pattern>/vendor/</exclude-pattern>
 	<exclude-pattern>/node_modules/</exclude-pattern>
 
