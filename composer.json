@@ -54,7 +54,7 @@
     }
   ],
   "scripts": {
-    "lint-twig": "twig-linter lint public/wp-content/themes/vidacaixa/templates",
+    "lint-twig": "twig-linter lint public/wp-content/themes/acm_theme/templates",
     "phpcs": "phpcs",
     "phpcbf": "phpcbf",
     "phpstan": "phpstan analyze",
