@@ -23,6 +23,7 @@ parameters:
         - %currentWorkingDirectory%/public/wp-content/plugins/player-for-web-pure-data-patches/
     excludes_analyse:
         - %currentWorkingDirectory%/public/wp-content/plugins/player-for-web-pure-data-patches/tests/
+        - %currentWorkingDirectory%/public/wp-content/plugins/player-for-web-pure-data-patches/vendor/
     ignoreErrors:
         # Uses func_get_args()
         # - '#^Function apply_filters(_ref_array)? invoked with [34567] parameters, 2 required\.$#'
