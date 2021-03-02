@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <psalm
+    autoloader="vendor/autoload.php"
     errorLevel="1"
     resolveFromConfigFile="true"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -9,9 +10,10 @@
     <projectFiles>
         <directory name="public/wp-content/plugins/player-for-web-pure-data-patches"/>
         <ignoreFiles>
-            <directory name="vendor"/>
             <directory name="public/wp-content/plugins/player-for-web-pure-data-patches/vendor"/>
             <directory name="public/wp-content/plugins/player-for-web-pure-data-patches/tests"/>
+            <directory name="public/wp-content/plugins/player-for-web-pure-data-patches/trunk"/>
+            <directory name="public/wp-content/plugins/player-for-web-pure-data-patches/tags"/>
         </ignoreFiles>
     </projectFiles>
 
