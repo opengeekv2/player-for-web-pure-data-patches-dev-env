@@ -12,8 +12,6 @@
         <ignoreFiles>
             <directory name="public/wp-content/plugins/player-for-web-pure-data-patches/vendor"/>
             <directory name="public/wp-content/plugins/player-for-web-pure-data-patches/tests"/>
-            <directory name="public/wp-content/plugins/player-for-web-pure-data-patches/trunk"/>
-            <directory name="public/wp-content/plugins/player-for-web-pure-data-patches/tags"/>
         </ignoreFiles>
     </projectFiles>
 
