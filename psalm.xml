@@ -9,6 +9,7 @@
     <projectFiles>
         <directory name="public/wp-content/plugins/player-for-web-pure-data-patches"/>
         <ignoreFiles>
+            <directory name="vendor"/>
             <directory name="public/wp-content/plugins/player-for-web-pure-data-patches/vendor"/>
             <directory name="public/wp-content/plugins/player-for-web-pure-data-patches/tests"/>
         </ignoreFiles>
