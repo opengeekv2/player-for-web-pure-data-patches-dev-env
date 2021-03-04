@@ -1,6 +1,5 @@
 <?xml version="1.0"?>
 <psalm
-    autoloader="vendor/autoload.php"
     errorLevel="1"
     resolveFromConfigFile="true"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -8,14 +7,15 @@
     xsi:schemaLocation="https://getpsalm.org/schema/config vendor/vimeo/psalm/config.xsd"
 >
     <projectFiles>
-        <directory name="public/wp-content/plugins/player-for-web-pure-data-patches"/>
+        <file name="public/wp-content/plugins/player-for-web-pure-data-patches/player-for-web-pure-data-patches.php" />
+        <directory name="public/wp-content/plugins/player-for-web-pure-data-patches/inc"/>
         <ignoreFiles>
             <directory name="public/wp-content/plugins/player-for-web-pure-data-patches/vendor"/>
             <directory name="public/wp-content/plugins/player-for-web-pure-data-patches/tests"/>
         </ignoreFiles>
     </projectFiles>
 
-    <plugins>
-        <pluginClass class="PsalmWordPress\Plugin"/>
-    </plugins>
+    <stubs>
+        <file name="vendor/php-stubs/wordpress-stubs/wordpress-stubs.php" />
+    </stubs>
 </psalm>
